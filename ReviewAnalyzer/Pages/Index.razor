@@ -1,0 +1,44 @@
+﻿@page "/"
+@inject ReviewService rs
+@inject ISnackbar Snackbar
+
+<PageTitle>Review</PageTitle>
+
+<MudText Class="d-flex justify-center pb-5" Typo="Typo.h3" GutterBottom="true">Create a review!</MudText>
+
+<EditForm Model="@_review" OnValidSubmit="CreateReviewAsync" Class="d-flex justify-center">
+    <DataAnnotationsValidator />
+    <MudCard Style="width: 600px;">
+        <MudCardContent>
+            @*<MudTextField Label="Subject" @bind-Value="_review.Name" For="@(() => _review.Name)" />*@
+            <MudSelect T="string" Label="Pick item to review" Strict="true" @bind-Value="_review.Name" For="@(() => _review.Name)">
+                @foreach(var item in SD.reviewItems)
+                {
+                    <MudSelectItem Value="@item" />
+                }
+            </MudSelect>
+            <MudTextField Lines="3" Variant="Variant.Text" Label="Your review" @bind-Value="_review.Content" For="@(() => _review.Content)" />
+        </MudCardContent>
+        <MudCardActions>
+            <MudButton ButtonType="ButtonType.Submit" Variant="Variant.Filled" Color="Color.Primary" Class="ml-auto">
+                Submit
+            </MudButton>
+        </MudCardActions>
+    </MudCard>
+</EditForm>
+
+@code {
+    private Review _review = new();
+
+    private async Task CreateReviewAsync()
+    {
+        var success = await rs.AddReview(_review);
+        if (success)
+        {
+            Snackbar.Clear();
+            Snackbar.Configuration.PositionClass = Defaults.Classes.Position.TopRight;
+            Snackbar.Add("Successfully submitted review!", Severity.Success);
+            _review = new();
+        }
+    }
+}
