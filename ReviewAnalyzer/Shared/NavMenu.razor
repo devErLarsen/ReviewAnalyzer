@@ -1,4 +1,7 @@
 ﻿<MudNavMenu>
     <MudNavLink Href="" Match="NavLinkMatch.All" Icon="@Icons.Filled.RateReview">Review</MudNavLink>
     <MudNavLink Href="/report" Match="NavLinkMatch.Prefix" Icon="@Icons.Filled.PieChart">Report</MudNavLink>
+    <AuthorizeView Roles="ReviewItem.Create">
+        <MudNavLink Href="/manage" Match="NavLinkMatch.Prefix" Icon="@Icons.Filled.PostAdd">Manage Items</MudNavLink>
+    </AuthorizeView>
 </MudNavMenu>

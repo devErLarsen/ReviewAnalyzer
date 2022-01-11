@@ -1,0 +1,71 @@
+﻿@page "/manage"
+@inject ISnackbar Snackbar
+@inject ReviewService rs
+
+<MudText Class="d-flex justify-center pb-5" Typo="Typo.h5" GutterBottom="true">Create a ReviewItem!</MudText>
+
+<EditForm Model="@_reviewItemToCreate" OnValidSubmit="CreateReviewItemAsync" Class="d-flex justify-center">
+    <DataAnnotationsValidator />
+    <MudCard Style="width: 600px;">
+        <MudCardContent>
+            <MudTextField Variant="Variant.Text" Label="Your review" @bind-Value="_reviewItemToCreate.Name" For="@(() => _reviewItemToCreate.Name)" />
+        </MudCardContent>
+        <MudCardActions>
+            <MudButton ButtonType="ButtonType.Submit" Variant="Variant.Filled" Color="Color.Primary" Class="ml-auto">
+                Submit
+            </MudButton>
+        </MudCardActions>
+    </MudCard>
+</EditForm>
+<MudDivider Class="my-5" />
+<MudTable Items="@_reviewItems" Breakpoint="Breakpoint.Xs" Class="">
+    <HeaderContent>
+        <MudTh>Id</MudTh>
+        <MudTh>Name</MudTh>
+        <MudTh></MudTh>
+    </HeaderContent>
+    <RowTemplate>
+        <MudTd DataLabel="Id">@context.Id</MudTd>
+        <MudTd DataLabel="Name">@context.Name</MudTd>
+        <MudTd DataLabel="" Style="text-align:right">
+            <MudButton ButtonType="ButtonType.Button" Variant="Variant.Filled" Color="Color.Error" @onclick="(() => DeleteItemAsync(context))">Delete</MudButton>
+        </MudTd>
+    </RowTemplate>
+</MudTable>
+
+@code {
+    private ReviewItem _reviewItemToCreate = new();
+    private List<ReviewItem> _reviewItems;
+
+    protected override async Task OnInitializedAsync()
+    {
+        _reviewItems = await rs.GetReviewItems();
+    }
+
+    private async void CreateReviewItemAsync()
+    {
+        var success = await rs.CreateReviewItem(_reviewItemToCreate);
+        if (success)
+        {
+            Snackbar.Clear();
+            Snackbar.Configuration.PositionClass = Defaults.Classes.Position.TopRight;
+            Snackbar.Add("Successfully created a reviewItem!", Severity.Success);
+            _reviewItems.Add(_reviewItemToCreate);
+            _reviewItemToCreate = new();
+            
+        }
+    }
+
+    private async void DeleteItemAsync(ReviewItem item)
+    {
+        var success = await rs.DeleteReviewItemAsync(item);
+        if (success)
+        {
+            Snackbar.Clear();
+            Snackbar.Configuration.PositionClass = Defaults.Classes.Position.TopRight;
+            Snackbar.Add("Successfully deleted a reviewItem!", Severity.Success);
+            _reviewItemToCreate = new();
+            _reviewItems.Remove(item);
+        }
+    }
+}

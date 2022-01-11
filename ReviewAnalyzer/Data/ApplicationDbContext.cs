@@ -3,6 +3,7 @@
 namespace ReviewAnalyzer.Data;
 public class ApplicationDbContext : DbContext
 {
+    public DbSet<ReviewItem> ReviewItems { get; set; }
     public DbSet<Review> Reviews { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder dbContextOptionsBuilder) =>
@@ -12,16 +13,22 @@ public class ApplicationDbContext : DbContext
     {
         Random random = new();
         Review[] reviewsToSeed = new Review[69];
+        ReviewItem reviewItemToSeed = new()
+        {
+            Id = 1,
+            Name = "Test"
+        };
         for (int i = 0; i < reviewsToSeed.Length; i++)
         {
             reviewsToSeed[i] = new Review
             {
                 Id = i + 1,
-                Name = SD.reviewItems[0],
+                ReviewItemId = 1,
                 Content = "Content is not important right now",
                 Sentiment = SD.sentimentOptions[random.Next(0, 4)],
             };
         }
+        modelBuilder.Entity<ReviewItem>().HasData(reviewItemToSeed);
         modelBuilder.Entity<Review>().HasData(reviewsToSeed);
     }
 }

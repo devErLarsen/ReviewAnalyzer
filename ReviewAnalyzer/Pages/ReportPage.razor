@@ -1,10 +1,10 @@
 ﻿@page "/report"
-@inject ReportService rs
+@inject ReviewService rs
 
 <MudText Class="d-flex justify-center pb-5" Typo="Typo.h3" GutterBottom="true">Reports</MudText>
 
-<MudCarousel Style="height: 350px;" ShowBullets="false" AutoCycle="false"  TData="object" >
-     @foreach(var result in results)
+<MudCarousel Style="height: 350px;" ShowBullets="false" AutoCycle="false"  TData="object" ShowArrows="@showArrows()" >
+     @foreach(var result in _results)
     {
         <MudCarouselItem Transition="Transition.Slide" >
             <div class="d-flex flex-column flex-column justify-center" stlye="height: 100%;">
@@ -23,11 +23,11 @@
 
 @code {
     private int Index = -1;
-    private Dictionary<string, Dictionary<string, double>>? results;
-    private int percentage;
+    private Dictionary<string, Dictionary<string, double>>? _results;
+    private bool showArrows() => _results.Count > 1;
 
     protected override async Task OnInitializedAsync()
     {
-        results = await rs.getRapports();
+        _results = await rs.getRapports();
     }
 }

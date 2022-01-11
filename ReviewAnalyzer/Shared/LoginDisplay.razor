@@ -1,0 +1,11 @@
+﻿<AuthorizeView>
+    <Authorized>
+        Hello, @context.User.Identity?.Name!
+        @*<a href="MicrosoftIdentity/Account/SignOut">Log out</a>*@
+        <MudIconButton Icon="@Icons.Filled.Logout" Color="Color.Inherit" Link="MicrosoftIdentity/Account/SignOut" />
+    </Authorized>
+    <NotAuthorized>
+        @*<a href="MicrosoftIdentity/Account/SignIn">Log in</a>*@
+        <MudIconButton Icon="@Icons.Filled.Login" Color="Color.Inherit" Link="MicrosoftIdentity/Account/SignIn" />
+    </NotAuthorized>
+</AuthorizeView>

@@ -11,10 +11,10 @@
     <MudCard Style="width: 600px;">
         <MudCardContent>
             @*<MudTextField Label="Subject" @bind-Value="_review.Name" For="@(() => _review.Name)" />*@
-            <MudSelect T="string" Label="Pick item to review" Strict="true" @bind-Value="_review.Name" For="@(() => _review.Name)">
-                @foreach(var item in SD.reviewItems)
+            <MudSelect T="int" Label="Pick item to review" Strict="true" @bind-Value="_review.ReviewItemId" For="@(() => _review.ReviewItemId)">
+                @foreach(var item in _reviewItems)
                 {
-                    <MudSelectItem Value="@item" />
+                    <MudSelectItem Value="@item.Id">@item.Name</MudSelectItem>
                 }
             </MudSelect>
             <MudTextField Lines="3" Variant="Variant.Text" Label="Your review" @bind-Value="_review.Content" For="@(() => _review.Content)" />
@@ -29,6 +29,12 @@
 
 @code {
     private Review _review = new();
+    private List<ReviewItem> _reviewItems;
+
+    protected override async Task OnInitializedAsync()
+    {
+        _reviewItems = await rs.GetReviewItems();
+    }
 
     private async Task CreateReviewAsync()
     {
