@@ -45,14 +45,14 @@ namespace ReviewAnalyzer.Data.Migrations
                             Id = 1,
                             Content = "Content is not important right now",
                             ReviewItemId = 1,
-                            Sentiment = "Neutral"
+                            Sentiment = "Positive"
                         },
                         new
                         {
                             Id = 2,
                             Content = "Content is not important right now",
                             ReviewItemId = 1,
-                            Sentiment = "Neutral"
+                            Sentiment = "Negative"
                         },
                         new
                         {
@@ -66,14 +66,14 @@ namespace ReviewAnalyzer.Data.Migrations
                             Id = 4,
                             Content = "Content is not important right now",
                             ReviewItemId = 1,
-                            Sentiment = "Positive"
+                            Sentiment = "Neutral"
                         },
                         new
                         {
                             Id = 5,
                             Content = "Content is not important right now",
                             ReviewItemId = 1,
-                            Sentiment = "Positive"
+                            Sentiment = "Negative"
                         },
                         new
                         {
@@ -87,84 +87,84 @@ namespace ReviewAnalyzer.Data.Migrations
                             Id = 7,
                             Content = "Content is not important right now",
                             ReviewItemId = 1,
-                            Sentiment = "Neutral"
+                            Sentiment = "Negative"
                         },
                         new
                         {
                             Id = 8,
                             Content = "Content is not important right now",
                             ReviewItemId = 1,
-                            Sentiment = "Mixed"
+                            Sentiment = "Positive"
                         },
                         new
                         {
                             Id = 9,
                             Content = "Content is not important right now",
                             ReviewItemId = 1,
-                            Sentiment = "Negative"
+                            Sentiment = "Positive"
                         },
                         new
                         {
                             Id = 10,
                             Content = "Content is not important right now",
                             ReviewItemId = 1,
-                            Sentiment = "Mixed"
+                            Sentiment = "Negative"
                         },
                         new
                         {
                             Id = 11,
                             Content = "Content is not important right now",
                             ReviewItemId = 1,
-                            Sentiment = "Positive"
+                            Sentiment = "Neutral"
                         },
                         new
                         {
                             Id = 12,
                             Content = "Content is not important right now",
                             ReviewItemId = 1,
-                            Sentiment = "Negative"
+                            Sentiment = "Mixed"
                         },
                         new
                         {
                             Id = 13,
                             Content = "Content is not important right now",
                             ReviewItemId = 1,
-                            Sentiment = "Positive"
+                            Sentiment = "Neutral"
                         },
                         new
                         {
                             Id = 14,
                             Content = "Content is not important right now",
                             ReviewItemId = 1,
-                            Sentiment = "Negative"
+                            Sentiment = "Neutral"
                         },
                         new
                         {
                             Id = 15,
                             Content = "Content is not important right now",
                             ReviewItemId = 1,
-                            Sentiment = "Neutral"
+                            Sentiment = "Negative"
                         },
                         new
                         {
                             Id = 16,
                             Content = "Content is not important right now",
                             ReviewItemId = 1,
-                            Sentiment = "Negative"
+                            Sentiment = "Mixed"
                         },
                         new
                         {
                             Id = 17,
                             Content = "Content is not important right now",
                             ReviewItemId = 1,
-                            Sentiment = "Mixed"
+                            Sentiment = "Positive"
                         },
                         new
                         {
                             Id = 18,
                             Content = "Content is not important right now",
                             ReviewItemId = 1,
-                            Sentiment = "Positive"
+                            Sentiment = "Neutral"
                         },
                         new
                         {
@@ -178,14 +178,14 @@ namespace ReviewAnalyzer.Data.Migrations
                             Id = 20,
                             Content = "Content is not important right now",
                             ReviewItemId = 1,
-                            Sentiment = "Positive"
+                            Sentiment = "Mixed"
                         },
                         new
                         {
                             Id = 21,
                             Content = "Content is not important right now",
                             ReviewItemId = 1,
-                            Sentiment = "Positive"
+                            Sentiment = "Neutral"
                         },
                         new
                         {
@@ -199,49 +199,49 @@ namespace ReviewAnalyzer.Data.Migrations
                             Id = 23,
                             Content = "Content is not important right now",
                             ReviewItemId = 1,
-                            Sentiment = "Positive"
+                            Sentiment = "Negative"
                         },
                         new
                         {
                             Id = 24,
                             Content = "Content is not important right now",
                             ReviewItemId = 1,
-                            Sentiment = "Mixed"
+                            Sentiment = "Neutral"
                         },
                         new
                         {
                             Id = 25,
                             Content = "Content is not important right now",
                             ReviewItemId = 1,
-                            Sentiment = "Mixed"
+                            Sentiment = "Negative"
                         },
                         new
                         {
                             Id = 26,
                             Content = "Content is not important right now",
                             ReviewItemId = 1,
-                            Sentiment = "Negative"
+                            Sentiment = "Positive"
                         },
                         new
                         {
                             Id = 27,
                             Content = "Content is not important right now",
                             ReviewItemId = 1,
-                            Sentiment = "Negative"
+                            Sentiment = "Mixed"
                         },
                         new
                         {
                             Id = 28,
                             Content = "Content is not important right now",
                             ReviewItemId = 1,
-                            Sentiment = "Negative"
+                            Sentiment = "Mixed"
                         },
                         new
                         {
                             Id = 29,
                             Content = "Content is not important right now",
                             ReviewItemId = 1,
-                            Sentiment = "Positive"
+                            Sentiment = "Negative"
                         },
                         new
                         {
@@ -255,56 +255,56 @@ namespace ReviewAnalyzer.Data.Migrations
                             Id = 31,
                             Content = "Content is not important right now",
                             ReviewItemId = 1,
-                            Sentiment = "Neutral"
+                            Sentiment = "Negative"
                         },
                         new
                         {
                             Id = 32,
                             Content = "Content is not important right now",
                             ReviewItemId = 1,
-                            Sentiment = "Positive"
+                            Sentiment = "Mixed"
                         },
                         new
                         {
                             Id = 33,
                             Content = "Content is not important right now",
                             ReviewItemId = 1,
-                            Sentiment = "Negative"
+                            Sentiment = "Mixed"
                         },
                         new
                         {
                             Id = 34,
                             Content = "Content is not important right now",
                             ReviewItemId = 1,
-                            Sentiment = "Neutral"
+                            Sentiment = "Mixed"
                         },
                         new
                         {
                             Id = 35,
                             Content = "Content is not important right now",
                             ReviewItemId = 1,
-                            Sentiment = "Mixed"
+                            Sentiment = "Positive"
                         },
                         new
                         {
                             Id = 36,
                             Content = "Content is not important right now",
                             ReviewItemId = 1,
-                            Sentiment = "Positive"
+                            Sentiment = "Neutral"
                         },
                         new
                         {
                             Id = 37,
                             Content = "Content is not important right now",
                             ReviewItemId = 1,
-                            Sentiment = "Negative"
+                            Sentiment = "Neutral"
                         },
                         new
                         {
                             Id = 38,
                             Content = "Content is not important right now",
                             ReviewItemId = 1,
-                            Sentiment = "Negative"
+                            Sentiment = "Mixed"
                         },
                         new
                         {
@@ -339,7 +339,7 @@ namespace ReviewAnalyzer.Data.Migrations
                             Id = 43,
                             Content = "Content is not important right now",
                             ReviewItemId = 1,
-                            Sentiment = "Neutral"
+                            Sentiment = "Negative"
                         },
                         new
                         {
@@ -360,21 +360,21 @@ namespace ReviewAnalyzer.Data.Migrations
                             Id = 46,
                             Content = "Content is not important right now",
                             ReviewItemId = 1,
-                            Sentiment = "Positive"
+                            Sentiment = "Mixed"
                         },
                         new
                         {
                             Id = 47,
                             Content = "Content is not important right now",
                             ReviewItemId = 1,
-                            Sentiment = "Mixed"
+                            Sentiment = "Negative"
                         },
                         new
                         {
                             Id = 48,
                             Content = "Content is not important right now",
                             ReviewItemId = 1,
-                            Sentiment = "Mixed"
+                            Sentiment = "Neutral"
                         },
                         new
                         {
@@ -395,21 +395,21 @@ namespace ReviewAnalyzer.Data.Migrations
                             Id = 51,
                             Content = "Content is not important right now",
                             ReviewItemId = 1,
-                            Sentiment = "Positive"
+                            Sentiment = "Neutral"
                         },
                         new
                         {
                             Id = 52,
                             Content = "Content is not important right now",
                             ReviewItemId = 1,
-                            Sentiment = "Mixed"
+                            Sentiment = "Positive"
                         },
                         new
                         {
                             Id = 53,
                             Content = "Content is not important right now",
                             ReviewItemId = 1,
-                            Sentiment = "Negative"
+                            Sentiment = "Positive"
                         },
                         new
                         {
@@ -430,14 +430,14 @@ namespace ReviewAnalyzer.Data.Migrations
                             Id = 56,
                             Content = "Content is not important right now",
                             ReviewItemId = 1,
-                            Sentiment = "Mixed"
+                            Sentiment = "Positive"
                         },
                         new
                         {
                             Id = 57,
                             Content = "Content is not important right now",
                             ReviewItemId = 1,
-                            Sentiment = "Neutral"
+                            Sentiment = "Positive"
                         },
                         new
                         {
@@ -451,21 +451,21 @@ namespace ReviewAnalyzer.Data.Migrations
                             Id = 59,
                             Content = "Content is not important right now",
                             ReviewItemId = 1,
-                            Sentiment = "Negative"
+                            Sentiment = "Neutral"
                         },
                         new
                         {
                             Id = 60,
                             Content = "Content is not important right now",
                             ReviewItemId = 1,
-                            Sentiment = "Negative"
+                            Sentiment = "Positive"
                         },
                         new
                         {
                             Id = 61,
                             Content = "Content is not important right now",
                             ReviewItemId = 1,
-                            Sentiment = "Positive"
+                            Sentiment = "Mixed"
                         },
                         new
                         {
@@ -479,7 +479,7 @@ namespace ReviewAnalyzer.Data.Migrations
                             Id = 63,
                             Content = "Content is not important right now",
                             ReviewItemId = 1,
-                            Sentiment = "Negative"
+                            Sentiment = "Neutral"
                         },
                         new
                         {
@@ -493,35 +493,35 @@ namespace ReviewAnalyzer.Data.Migrations
                             Id = 65,
                             Content = "Content is not important right now",
                             ReviewItemId = 1,
-                            Sentiment = "Neutral"
+                            Sentiment = "Positive"
                         },
                         new
                         {
                             Id = 66,
                             Content = "Content is not important right now",
                             ReviewItemId = 1,
-                            Sentiment = "Neutral"
+                            Sentiment = "Positive"
                         },
                         new
                         {
                             Id = 67,
                             Content = "Content is not important right now",
                             ReviewItemId = 1,
-                            Sentiment = "Positive"
+                            Sentiment = "Negative"
                         },
                         new
                         {
                             Id = 68,
                             Content = "Content is not important right now",
                             ReviewItemId = 1,
-                            Sentiment = "Mixed"
+                            Sentiment = "Negative"
                         },
                         new
                         {
                             Id = 69,
                             Content = "Content is not important right now",
                             ReviewItemId = 1,
-                            Sentiment = "Negative"
+                            Sentiment = "Positive"
                         });
                 });
 

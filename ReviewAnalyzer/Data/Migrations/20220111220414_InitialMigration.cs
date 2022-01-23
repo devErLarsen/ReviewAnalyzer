@@ -50,67 +50,67 @@ namespace ReviewAnalyzer.Data.Migrations
             migrationBuilder.InsertData(
                 table: "Reviews",
                 columns: new[] { "Id", "Content", "ReviewItemId", "Sentiment" },
-                values: new object[] { 1, "Content is not important right now", 1, "Neutral" });
+                values: new object[] { 1, "Content is not important right now", 1, "Positive" });
 
             migrationBuilder.InsertData(
                 table: "Reviews",
                 columns: new[] { "Id", "Content", "ReviewItemId", "Sentiment" },
-                values: new object[] { 2, "Content is not important right now", 1, "Neutral" });
+                values: new object[] { 2, "Content is not important right now", 1, "Negative" });
 
             migrationBuilder.InsertData(
                 table: "Reviews",
                 columns: new[] { "Id", "Content", "ReviewItemId", "Sentiment" },
-                values: new object[] { 3, "Content is not important right now", 1, "Mixed" });
+                values: new object[] { 3, "Content is not important right now", 1, "Negative" });
 
             migrationBuilder.InsertData(
                 table: "Reviews",
                 columns: new[] { "Id", "Content", "ReviewItemId", "Sentiment" },
-                values: new object[] { 4, "Content is not important right now", 1, "Positive" });
+                values: new object[] { 4, "Content is not important right now", 1, "Neutral" });
 
             migrationBuilder.InsertData(
                 table: "Reviews",
                 columns: new[] { "Id", "Content", "ReviewItemId", "Sentiment" },
-                values: new object[] { 5, "Content is not important right now", 1, "Neutral" });
+                values: new object[] { 5, "Content is not important right now", 1, "Negative" });
 
             migrationBuilder.InsertData(
                 table: "Reviews",
                 columns: new[] { "Id", "Content", "ReviewItemId", "Sentiment" },
-                values: new object[] { 6, "Content is not important right now", 1, "Mixed" });
+                values: new object[] { 6, "Content is not important right now", 1, "Positive" });
 
             migrationBuilder.InsertData(
                 table: "Reviews",
                 columns: new[] { "Id", "Content", "ReviewItemId", "Sentiment" },
-                values: new object[] { 7, "Content is not important right now", 1, "Positive" });
+                values: new object[] { 7, "Content is not important right now", 1, "Negative" });
 
             migrationBuilder.InsertData(
                 table: "Reviews",
                 columns: new[] { "Id", "Content", "ReviewItemId", "Sentiment" },
-                values: new object[] { 8, "Content is not important right now", 1, "Mixed" });
+                values: new object[] { 8, "Content is not important right now", 1, "Positive" });
 
             migrationBuilder.InsertData(
                 table: "Reviews",
                 columns: new[] { "Id", "Content", "ReviewItemId", "Sentiment" },
-                values: new object[] { 9, "Content is not important right now", 1, "Mixed" });
+                values: new object[] { 9, "Content is not important right now", 1, "Positive" });
 
             migrationBuilder.InsertData(
                 table: "Reviews",
                 columns: new[] { "Id", "Content", "ReviewItemId", "Sentiment" },
-                values: new object[] { 10, "Content is not important right now", 1, "Mixed" });
+                values: new object[] { 10, "Content is not important right now", 1, "Negative" });
 
             migrationBuilder.InsertData(
                 table: "Reviews",
                 columns: new[] { "Id", "Content", "ReviewItemId", "Sentiment" },
-                values: new object[] { 11, "Content is not important right now", 1, "Positive" });
+                values: new object[] { 11, "Content is not important right now", 1, "Neutral" });
 
             migrationBuilder.InsertData(
                 table: "Reviews",
                 columns: new[] { "Id", "Content", "ReviewItemId", "Sentiment" },
-                values: new object[] { 12, "Content is not important right now", 1, "Negative" });
+                values: new object[] { 12, "Content is not important right now", 1, "Mixed" });
 
             migrationBuilder.InsertData(
                 table: "Reviews",
                 columns: new[] { "Id", "Content", "ReviewItemId", "Sentiment" },
-                values: new object[] { 13, "Content is not important right now", 1, "Positive" });
+                values: new object[] { 13, "Content is not important right now", 1, "Neutral" });
 
             migrationBuilder.InsertData(
                 table: "Reviews",
@@ -120,12 +120,12 @@ namespace ReviewAnalyzer.Data.Migrations
             migrationBuilder.InsertData(
                 table: "Reviews",
                 columns: new[] { "Id", "Content", "ReviewItemId", "Sentiment" },
-                values: new object[] { 15, "Content is not important right now", 1, "Mixed" });
+                values: new object[] { 15, "Content is not important right now", 1, "Negative" });
 
             migrationBuilder.InsertData(
                 table: "Reviews",
                 columns: new[] { "Id", "Content", "ReviewItemId", "Sentiment" },
-                values: new object[] { 16, "Content is not important right now", 1, "Neutral" });
+                values: new object[] { 16, "Content is not important right now", 1, "Mixed" });
 
             migrationBuilder.InsertData(
                 table: "Reviews",
@@ -140,7 +140,7 @@ namespace ReviewAnalyzer.Data.Migrations
             migrationBuilder.InsertData(
                 table: "Reviews",
                 columns: new[] { "Id", "Content", "ReviewItemId", "Sentiment" },
-                values: new object[] { 19, "Content is not important right now", 1, "Neutral" });
+                values: new object[] { 19, "Content is not important right now", 1, "Negative" });
 
             migrationBuilder.InsertData(
                 table: "Reviews",
@@ -150,7 +150,7 @@ namespace ReviewAnalyzer.Data.Migrations
             migrationBuilder.InsertData(
                 table: "Reviews",
                 columns: new[] { "Id", "Content", "ReviewItemId", "Sentiment" },
-                values: new object[] { 21, "Content is not important right now", 1, "Mixed" });
+                values: new object[] { 21, "Content is not important right now", 1, "Neutral" });
 
             migrationBuilder.InsertData(
                 table: "Reviews",
@@ -160,32 +160,32 @@ namespace ReviewAnalyzer.Data.Migrations
             migrationBuilder.InsertData(
                 table: "Reviews",
                 columns: new[] { "Id", "Content", "ReviewItemId", "Sentiment" },
-                values: new object[] { 23, "Content is not important right now", 1, "Positive" });
+                values: new object[] { 23, "Content is not important right now", 1, "Negative" });
 
             migrationBuilder.InsertData(
                 table: "Reviews",
                 columns: new[] { "Id", "Content", "ReviewItemId", "Sentiment" },
-                values: new object[] { 24, "Content is not important right now", 1, "Negative" });
+                values: new object[] { 24, "Content is not important right now", 1, "Neutral" });
 
             migrationBuilder.InsertData(
                 table: "Reviews",
                 columns: new[] { "Id", "Content", "ReviewItemId", "Sentiment" },
-                values: new object[] { 25, "Content is not important right now", 1, "Mixed" });
+                values: new object[] { 25, "Content is not important right now", 1, "Negative" });
 
             migrationBuilder.InsertData(
                 table: "Reviews",
                 columns: new[] { "Id", "Content", "ReviewItemId", "Sentiment" },
-                values: new object[] { 26, "Content is not important right now", 1, "Mixed" });
+                values: new object[] { 26, "Content is not important right now", 1, "Positive" });
 
             migrationBuilder.InsertData(
                 table: "Reviews",
                 columns: new[] { "Id", "Content", "ReviewItemId", "Sentiment" },
-                values: new object[] { 27, "Content is not important right now", 1, "Neutral" });
+                values: new object[] { 27, "Content is not important right now", 1, "Mixed" });
 
             migrationBuilder.InsertData(
                 table: "Reviews",
                 columns: new[] { "Id", "Content", "ReviewItemId", "Sentiment" },
-                values: new object[] { 28, "Content is not important right now", 1, "Neutral" });
+                values: new object[] { 28, "Content is not important right now", 1, "Mixed" });
 
             migrationBuilder.InsertData(
                 table: "Reviews",
@@ -195,7 +195,7 @@ namespace ReviewAnalyzer.Data.Migrations
             migrationBuilder.InsertData(
                 table: "Reviews",
                 columns: new[] { "Id", "Content", "ReviewItemId", "Sentiment" },
-                values: new object[] { 30, "Content is not important right now", 1, "Mixed" });
+                values: new object[] { 30, "Content is not important right now", 1, "Negative" });
 
             migrationBuilder.InsertData(
                 table: "Reviews",
@@ -205,12 +205,12 @@ namespace ReviewAnalyzer.Data.Migrations
             migrationBuilder.InsertData(
                 table: "Reviews",
                 columns: new[] { "Id", "Content", "ReviewItemId", "Sentiment" },
-                values: new object[] { 32, "Content is not important right now", 1, "Neutral" });
+                values: new object[] { 32, "Content is not important right now", 1, "Mixed" });
 
             migrationBuilder.InsertData(
                 table: "Reviews",
                 columns: new[] { "Id", "Content", "ReviewItemId", "Sentiment" },
-                values: new object[] { 33, "Content is not important right now", 1, "Negative" });
+                values: new object[] { 33, "Content is not important right now", 1, "Mixed" });
 
             migrationBuilder.InsertData(
                 table: "Reviews",
@@ -220,22 +220,22 @@ namespace ReviewAnalyzer.Data.Migrations
             migrationBuilder.InsertData(
                 table: "Reviews",
                 columns: new[] { "Id", "Content", "ReviewItemId", "Sentiment" },
-                values: new object[] { 35, "Content is not important right now", 1, "Negative" });
+                values: new object[] { 35, "Content is not important right now", 1, "Positive" });
 
             migrationBuilder.InsertData(
                 table: "Reviews",
                 columns: new[] { "Id", "Content", "ReviewItemId", "Sentiment" },
-                values: new object[] { 36, "Content is not important right now", 1, "Positive" });
+                values: new object[] { 36, "Content is not important right now", 1, "Neutral" });
 
             migrationBuilder.InsertData(
                 table: "Reviews",
                 columns: new[] { "Id", "Content", "ReviewItemId", "Sentiment" },
-                values: new object[] { 37, "Content is not important right now", 1, "Positive" });
+                values: new object[] { 37, "Content is not important right now", 1, "Neutral" });
 
             migrationBuilder.InsertData(
                 table: "Reviews",
                 columns: new[] { "Id", "Content", "ReviewItemId", "Sentiment" },
-                values: new object[] { 38, "Content is not important right now", 1, "Positive" });
+                values: new object[] { 38, "Content is not important right now", 1, "Mixed" });
 
             migrationBuilder.InsertData(
                 table: "Reviews",
@@ -245,7 +245,7 @@ namespace ReviewAnalyzer.Data.Migrations
             migrationBuilder.InsertData(
                 table: "Reviews",
                 columns: new[] { "Id", "Content", "ReviewItemId", "Sentiment" },
-                values: new object[] { 40, "Content is not important right now", 1, "Positive" });
+                values: new object[] { 40, "Content is not important right now", 1, "Neutral" });
 
             migrationBuilder.InsertData(
                 table: "Reviews",
@@ -255,7 +255,7 @@ namespace ReviewAnalyzer.Data.Migrations
             migrationBuilder.InsertData(
                 table: "Reviews",
                 columns: new[] { "Id", "Content", "ReviewItemId", "Sentiment" },
-                values: new object[] { 42, "Content is not important right now", 1, "Negative" });
+                values: new object[] { 42, "Content is not important right now", 1, "Mixed" });
 
             migrationBuilder.InsertData(
                 table: "Reviews",
@@ -265,42 +265,42 @@ namespace ReviewAnalyzer.Data.Migrations
             migrationBuilder.InsertData(
                 table: "Reviews",
                 columns: new[] { "Id", "Content", "ReviewItemId", "Sentiment" },
-                values: new object[] { 44, "Content is not important right now", 1, "Mixed" });
+                values: new object[] { 44, "Content is not important right now", 1, "Neutral" });
 
             migrationBuilder.InsertData(
                 table: "Reviews",
                 columns: new[] { "Id", "Content", "ReviewItemId", "Sentiment" },
-                values: new object[] { 45, "Content is not important right now", 1, "Negative" });
+                values: new object[] { 45, "Content is not important right now", 1, "Neutral" });
 
             migrationBuilder.InsertData(
                 table: "Reviews",
                 columns: new[] { "Id", "Content", "ReviewItemId", "Sentiment" },
-                values: new object[] { 46, "Content is not important right now", 1, "Positive" });
+                values: new object[] { 46, "Content is not important right now", 1, "Mixed" });
 
             migrationBuilder.InsertData(
                 table: "Reviews",
                 columns: new[] { "Id", "Content", "ReviewItemId", "Sentiment" },
-                values: new object[] { 47, "Content is not important right now", 1, "Positive" });
+                values: new object[] { 47, "Content is not important right now", 1, "Negative" });
 
             migrationBuilder.InsertData(
                 table: "Reviews",
                 columns: new[] { "Id", "Content", "ReviewItemId", "Sentiment" },
-                values: new object[] { 48, "Content is not important right now", 1, "Mixed" });
+                values: new object[] { 48, "Content is not important right now", 1, "Neutral" });
 
             migrationBuilder.InsertData(
                 table: "Reviews",
                 columns: new[] { "Id", "Content", "ReviewItemId", "Sentiment" },
-                values: new object[] { 49, "Content is not important right now", 1, "Negative" });
+                values: new object[] { 49, "Content is not important right now", 1, "Positive" });
 
             migrationBuilder.InsertData(
                 table: "Reviews",
                 columns: new[] { "Id", "Content", "ReviewItemId", "Sentiment" },
-                values: new object[] { 50, "Content is not important right now", 1, "Negative" });
+                values: new object[] { 50, "Content is not important right now", 1, "Mixed" });
 
             migrationBuilder.InsertData(
                 table: "Reviews",
                 columns: new[] { "Id", "Content", "ReviewItemId", "Sentiment" },
-                values: new object[] { 51, "Content is not important right now", 1, "Negative" });
+                values: new object[] { 51, "Content is not important right now", 1, "Neutral" });
 
             migrationBuilder.InsertData(
                 table: "Reviews",
@@ -310,7 +310,7 @@ namespace ReviewAnalyzer.Data.Migrations
             migrationBuilder.InsertData(
                 table: "Reviews",
                 columns: new[] { "Id", "Content", "ReviewItemId", "Sentiment" },
-                values: new object[] { 53, "Content is not important right now", 1, "Negative" });
+                values: new object[] { 53, "Content is not important right now", 1, "Positive" });
 
             migrationBuilder.InsertData(
                 table: "Reviews",
@@ -320,27 +320,27 @@ namespace ReviewAnalyzer.Data.Migrations
             migrationBuilder.InsertData(
                 table: "Reviews",
                 columns: new[] { "Id", "Content", "ReviewItemId", "Sentiment" },
-                values: new object[] { 55, "Content is not important right now", 1, "Positive" });
+                values: new object[] { 55, "Content is not important right now", 1, "Neutral" });
 
             migrationBuilder.InsertData(
                 table: "Reviews",
                 columns: new[] { "Id", "Content", "ReviewItemId", "Sentiment" },
-                values: new object[] { 56, "Content is not important right now", 1, "Negative" });
+                values: new object[] { 56, "Content is not important right now", 1, "Positive" });
 
             migrationBuilder.InsertData(
                 table: "Reviews",
                 columns: new[] { "Id", "Content", "ReviewItemId", "Sentiment" },
-                values: new object[] { 57, "Content is not important right now", 1, "Neutral" });
+                values: new object[] { 57, "Content is not important right now", 1, "Positive" });
 
             migrationBuilder.InsertData(
                 table: "Reviews",
                 columns: new[] { "Id", "Content", "ReviewItemId", "Sentiment" },
-                values: new object[] { 58, "Content is not important right now", 1, "Positive" });
+                values: new object[] { 58, "Content is not important right now", 1, "Neutral" });
 
             migrationBuilder.InsertData(
                 table: "Reviews",
                 columns: new[] { "Id", "Content", "ReviewItemId", "Sentiment" },
-                values: new object[] { 59, "Content is not important right now", 1, "Positive" });
+                values: new object[] { 59, "Content is not important right now", 1, "Neutral" });
 
             migrationBuilder.InsertData(
                 table: "Reviews",
@@ -360,32 +360,32 @@ namespace ReviewAnalyzer.Data.Migrations
             migrationBuilder.InsertData(
                 table: "Reviews",
                 columns: new[] { "Id", "Content", "ReviewItemId", "Sentiment" },
-                values: new object[] { 63, "Content is not important right now", 1, "Positive" });
+                values: new object[] { 63, "Content is not important right now", 1, "Neutral" });
 
             migrationBuilder.InsertData(
                 table: "Reviews",
                 columns: new[] { "Id", "Content", "ReviewItemId", "Sentiment" },
-                values: new object[] { 64, "Content is not important right now", 1, "Mixed" });
+                values: new object[] { 64, "Content is not important right now", 1, "Positive" });
 
             migrationBuilder.InsertData(
                 table: "Reviews",
                 columns: new[] { "Id", "Content", "ReviewItemId", "Sentiment" },
-                values: new object[] { 65, "Content is not important right now", 1, "Negative" });
+                values: new object[] { 65, "Content is not important right now", 1, "Positive" });
 
             migrationBuilder.InsertData(
                 table: "Reviews",
                 columns: new[] { "Id", "Content", "ReviewItemId", "Sentiment" },
-                values: new object[] { 66, "Content is not important right now", 1, "Negative" });
+                values: new object[] { 66, "Content is not important right now", 1, "Positive" });
 
             migrationBuilder.InsertData(
                 table: "Reviews",
                 columns: new[] { "Id", "Content", "ReviewItemId", "Sentiment" },
-                values: new object[] { 67, "Content is not important right now", 1, "Mixed" });
+                values: new object[] { 67, "Content is not important right now", 1, "Negative" });
 
             migrationBuilder.InsertData(
                 table: "Reviews",
                 columns: new[] { "Id", "Content", "ReviewItemId", "Sentiment" },
-                values: new object[] { 68, "Content is not important right now", 1, "Positive" });
+                values: new object[] { 68, "Content is not important right now", 1, "Negative" });
 
             migrationBuilder.InsertData(
                 table: "Reviews",
