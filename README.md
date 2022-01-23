@@ -8,6 +8,6 @@ Technologies used:
 * Azure Cognitive Services Language (Textanalytics)
 * Azure Ad
 
-![](https://i.imgur.com/ghGNWbv.png)
+![](https://github.com/devErLarsen/ReviewAnalyzer/blob/master/showcase/reviewappdemo.gif)
 
 Submit reviews and get a overview of sentiment.
