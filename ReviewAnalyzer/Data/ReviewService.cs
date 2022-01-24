@@ -5,8 +5,8 @@ using Microsoft.EntityFrameworkCore;
 namespace ReviewAnalyzer.Data;
 public class ReviewService
 {
-    private static readonly string endpoint = "https://esl-language.cognitiveservices.azure.com/";
-    private static readonly string key = "9fc66fbd2af94380a258d37e40b35a35";
+    private static readonly string endpoint = "your endpoint";
+    private static readonly string key = "your key";
     private static readonly TextAnalyticsClient client = new TextAnalyticsClient(new Uri(endpoint), new AzureKeyCredential(key));
     private readonly IDbContextFactory<ApplicationDbContext> _contextFactory;
 
